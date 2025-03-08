@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="PT=BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultra Software - Tecnologia e Inovação</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel="website icon" type="jpeg" href="Fotoparaosite.jpeg.jpeg">
+</head>
+<body>
+
+    <header>
+        <h1>Ultra Software</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+        <div id="menu-toggle">&#9776;</div>
+    </header>
+    <section id="home" class="hero">
+        <h2>Otimize o seu tempo com nossa empresa</h2>
+        <p>Proatividade e excelência</p>
+        <a href="#contact" class="btn">Peça um orçamento</a>
+    </section>
+    <section id="about">
+        <h2>Sobre nós</h2>
+        <p>Somos especialistas em gerenciamento e criação de Softwares avançados</p>
+    </section>
+    <section id="services">
+        <h2>Nossos serviços</h2>
+        <div class="service">
+            <h3>Front-End</h3>
+            <p>Garantimos a criação de uma estrutura sólida com linguagens como HTML, CSS, JAVASCRIPT e afins</p>
+        </div>
+        <div class="service">
+            <h3>Back-End</h3>
+            <p>Também é de nossa especialidade a parte interna da aplicação, utilizando lingauagens como PYTON, JAVA, C++ e afins </p>
+        </div>
+        <div class="service">
+            <h3>Banco de dados</h3>
+            <p>Armazenamos, organizamos e estruturamos as informações de sua empresa com extremo cuidado e zelo </p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Entre em contato</h2>
+        <form method="post" action="enviar.php">
+            <input id="nome" name="nome" placeholder="Nome" required>
+            <label for="nome">Seu nome completo</label>
+            <input id="email" name="email" type="email" placeholder="Email" required>
+            <label for="email">Seu e-mail</label>
+            <textarea id="mensagem" name="mensagem" placeholder="Mensagem" required></textarea>
+            <label for="mensagem">Escreva o que deseja</label>
+            <br>
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Ultra Software - Todos os direitos reservados</p>
+    </footer>
+    
+</body>
+</html>
