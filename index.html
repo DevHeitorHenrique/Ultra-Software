@@ -20,7 +20,7 @@
                 <li><a href="#contact">Contato</a></li>
             </ul>
         </nav>
-        <div id="menu-toggle">&#9776;</div>
+        <button class="menu-toggle" id="menu-toggle">&#9776;</button>
     </header>
     <section id="home" class="hero">
         <h2>Otimize o seu tempo com nossa empresa</h2>
@@ -39,7 +39,7 @@
         </div>
         <div class="service">
             <h3>Back-End</h3>
-            <p>Também é de nossa especialidade a parte interna da aplicação, utilizando lingauagens como PYTON, JAVA, C++ e afins </p>
+            <p>Também é de nossa especialidade a parte interna da aplicação, utilizando linguagens como PYTHON, JAVA, C++ e afins </p>
         </div>
         <div class="service">
             <h3>Banco de dados</h3>
@@ -50,12 +50,12 @@
     <section id="contact">
         <h2>Entre em contato</h2>
         <form action="https://formsubmit.co/7143512d38b9c71b24afdb6951508c36" method="POST">
-            <input id="nome" name="nome" placeholder="Nome" required>
             <label for="nome">Seu nome completo</label>
-            <input id="email" name="email" type="email" placeholder="Email" required>
+            <input id="nome" name="nome" placeholder="Nome" required>
             <label for="email">Seu e-mail</label>
+            <input id="email" name="email" type="email" placeholder="Email" required>
+            <label for="mensagem">Escreva o serviço que deseja</label>
             <textarea id="mensagem" name="mensagem" placeholder="Mensagem" required></textarea>
-            <label for="mensagem">Escreva o tipo de serviço que deseja</label>
             <br>
             <br>
             <button type="submit">Enviar</button>
