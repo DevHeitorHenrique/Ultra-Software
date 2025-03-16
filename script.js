@@ -1,8 +1,6 @@
-document.addEventListener("DOMContentLoaded",function(){
-    const menuToggle= document.querySelector("menu-toggle");
-    const naUl=document.querySelector("nav ul");
+const toggle = document.getElementById("menu-toggle");
+const navList = document.querySelector("nav ul"); // Corrigido para pegar o <ul>
 
-    menuToggle.addEventListener("click", function() {
-        naUl.classlist.toggle("active")
-    });
+toggle.addEventListener("click", () => {
+  navList.classList.toggle("active"); // Aplica 'active' no <ul>
 });
