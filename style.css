@@ -90,12 +90,16 @@ footer{
     padding: 20px;
     margin-top: 20px;
 }
-.menu-toggle{
+.menu-toggle {
+    font-size: 1.2rem;         /* Ícone menor */
+    padding: 6px 10px;         /* Menor espaçamento */
+    border: none;
+    background: #fff;
+    color: #333;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
     display: none;
-  font-size: 1.5rem;
-  cursor: pointer;
-  padding: 5px 10px;
-  margin: 0;
+    cursor: pointer;
 }
 @media(max-width: 768px){
     nav ul{
