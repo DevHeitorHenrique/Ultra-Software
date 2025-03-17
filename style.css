@@ -92,8 +92,10 @@ footer{
 }
 .menu-toggle{
     display: none;
-    font-size: 2rem;
-    cursor: pointer;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin: 0;
 }
 @media(max-width: 768px){
     nav ul{
