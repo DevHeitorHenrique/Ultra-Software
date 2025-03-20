@@ -94,7 +94,7 @@ footer{
     font-size: 1.2rem;         /* Ícone menor */
     padding: 6px 10px;         /* Menor espaçamento */
     border: none;
-    background: #white;
+    background: white;
     color: #333;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
